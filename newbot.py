@@ -23,14 +23,6 @@ bot_name = "Lara"
 bot = ChatBot(bot_name)
 
 
-symptoms = [
-    """
-    1) Febre alta, tosse seca, cansaço, fadiga, dificuldade para respirar.
-    2) Febre, tosse, dor de cabeça, dor nos musculo e nas juntas, dor de garganta.
-    3) Espirros, tosse, dor de cabeça, coriza."""
-]
-
-
 phrases = [
     "Olá, sou a Lara uma enfermeira virtual. Vamos começar uma consulta", # 0
     "Você esteve com pessoas que chagaram recentemente de viagem?$sim$não",#1
