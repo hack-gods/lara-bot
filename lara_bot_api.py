@@ -25,4 +25,5 @@ def get_message_and_return_json(message):
 
 
 if __name__ == '__main__':
-    app.run()
+    ## enter the IP and port of your choice
+    app.run('192.168.1.202', 5000)
